@@ -13,7 +13,7 @@
         }
     ```
     2. Tạo file sw.js để xử lý các sự kiện
-    - Install: Cache các tài nguyên cần thiết, ví dụ:
+    - #### Install: Cache các tài nguyên cần thiết, ví dụ:
     ``` javascript
         self.addEventListener("install", (event) => {
             event.waitUntil(
@@ -23,7 +23,7 @@
             )
         })
     ```
-    - Activate: Xoá cache cũ để quản lý bộ nhớ, ví dụ:
+    - #### Activate: Xoá cache cũ để quản lý bộ nhớ, ví dụ:
     ``` javascript
         self.addEventListener("activate", (event) => {
             event.waitUntil(
@@ -39,7 +39,7 @@
             )
         })
     ```
-    - Fetch: Xử lý yêu cầu mạng, phục vụ từ cache hoặc từ mạng, ví dụ:
+    - #### Fetch: Xử lý yêu cầu mạng, phục vụ từ cache hoặc từ mạng, ví dụ:
     ``` javascript
         selft.addEventListener("fetch", event => {
             event.respondWith(
