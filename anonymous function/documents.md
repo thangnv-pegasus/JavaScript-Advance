@@ -4,28 +4,28 @@
 - Anonymous function(hàm ẩn danh) về cơ bản là nó là một hàm không được định nghĩa tên. Thay vì chúng ta đặt tên cho function như cách thông thường, chúng ta sẽ định nghĩa nó tại nơi cần sử dụng, thường là trong một biểu thức hoặc như một tham số truyền vào
 
 ### 2. Cú pháp cơ bản
-```
+``` javascript
     function () {
         // code
     }
 ```
 ### 3. Cách dùng
 - Gán vào biến
-```
+``` javascript
     const sayHello = function () {
         console.log("good morning")
     }
     sayHello();
 ```
 - Sử dụng trực tiếp (IIFE - Immediately Invoked Function Expression)
-```
+``` javascript
     (function () {
         console.log("This function is running now!")
     })()
 ```
 
 - Truyền hàm than số
-```
+``` javascript
     setTimeout(function () {
         console.log("This function is running after 2s")
     }, 2000)
