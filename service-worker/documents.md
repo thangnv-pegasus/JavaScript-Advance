@@ -6,13 +6,13 @@
 - Điều này đặc biệt hữu ích cho việc cache tài nguyên, xử lý thông báo đẩy, và thực hiện các tác vụ nền như đồng bộ hoá
 
 2. ### Cách sử dụng Service Worker cơ bản
-    1. Đăng ký service worker
+    1. ### Đăng ký service worker
     ``` javascript
         if("serviceWorker" in navigator) {
             navigator.serviceWorker.register("sw.js");
         }
     ```
-    2. Tạo file sw.js để xử lý các sự kiện
+    2. ### Tạo file sw.js để xử lý các sự kiện
     - #### Install: Cache các tài nguyên cần thiết, ví dụ:
     ``` javascript
         self.addEventListener("install", (event) => {
