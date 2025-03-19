@@ -34,12 +34,3 @@ export const publicRouters: IRouter[] = [
     }
 ]
 
-/*
-    b1: component flow
-    b2: useEffect, licycle component 
-    b3: key of component
-    b3: useMemo
-    b4: useCallback
-    b5: React.memo
-    b6: React.lazy
-*/
