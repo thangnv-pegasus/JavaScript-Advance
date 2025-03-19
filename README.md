@@ -1,5 +1,5 @@
 > This is repo for my learning
-> i want to profresional developer javascript
+> i want to professional developer javascript
 > les't go
 
 - atomic design, hook pattern, saga pattern, các design pattern hay dùng
